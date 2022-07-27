@@ -1,0 +1,28 @@
+.modal{
+    .input-wrapper{
+        width: 100%;
+        display: table;
+        border: 1px solid;
+        border-radius: 6px;
+        padding: 3px 5px;
+        margin-bottom: 10px;
+        label{
+            display: table-cell;
+            width: 0;
+            vertical-align: middle;
+        }
+        input{
+            display: table-cell;
+            border: 0;
+            outline: 0;
+            width: 100%;
+        }
+    }
+    .btns{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 100%;
+    }
+}
